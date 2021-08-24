@@ -1,0 +1,21 @@
+{
+  "name": "poc-connector",
+  "version": "1.0.0",
+  "description": "Connector Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Rodrigo Marsan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "contentful": "^8.4.2",
+    "contentful-management": "^7.31.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.12"
+  }
+}
